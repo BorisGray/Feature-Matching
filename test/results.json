@@ -1,0 +1,33 @@
+{
+   "matched-points-centerpoint" : [
+      {
+         "x" : 42,
+         "y" : 1289
+      },
+      {
+         "x" : 191,
+         "y" : 1289
+      },
+      {
+         "x" : 190,
+         "y" : 1492
+      },
+      {
+         "x" : 43,
+         "y" : 1492
+      },
+      {
+         "x" : 116,
+         "y" : 1391
+      }
+   ],
+   "number-all-macthes" : 142,
+   "number-good-macthes" : 35,
+   "number-keypoints-imgobject" : 142,
+   "number-keypoints-imgscene" : 3799,
+   "time-compute-descriptor" : 129.129381,
+   "time-detect-keypoints" : 94.453643999999997,
+   "time-find-homography" : 0.29025699999999999,
+   "time-matching-descriptor-vectors" : 13.086124999999999,
+   "time-perspective-transform" : 0.003284
+}

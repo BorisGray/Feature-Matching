@@ -1,0 +1,8 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)  
+PROJECT( feat_match_main )  
+SET(CMAKE_INSTALL_PREFIX ./feat_match_main)
+ADD_SUBDIRECTORY(src)
+ADD_SUBDIRECTORY(include)
+FIND_PACKAGE( OpenCV REQUIRED )  
+ADD_EXECUTABLE( feat_match_main main.cpp )  
+TARGET_LINK_LIBRARIES( feat_match_main ${OpenCV_LIBS})
